@@ -1,0 +1,368 @@
+/* general */
+body{
+    margin: 0;
+   
+   ;
+}
+
+.img-custom{
+
+width: 72px;
+height: 72px;
+left: 119px;
+top: 27px;
+}
+.title-custom{
+    font-size:3.5rem;
+    font-weight: 400; 
+    font: arial;
+    line-height: 4.0rem;
+    letter-spacing: 3px;
+    color: white;
+}
+
+.border-dot{
+    height: 15px;
+    width: 15px;
+    border-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    border-style: solid;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+.quote{
+    font-size:1.5rem;
+    font-weight: 400; 
+    font: arial;
+    line-height: 1.7rem;
+    letter-spacing: 2px;
+    color: white;
+}
+
+
+.btn-custom{
+    background-color: rgba(255,181,72,1);
+    width: 250px;
+    height: 60px;
+    border: none;
+    font-weight: 700;
+    border-radius: 4px;
+    }
+
+
+
+/* page 1 main page */
+
+.main-page{
+    background-image: url("img/main-bg.jpg") ;
+    width: 100vw;
+    height: 960px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+
+}
+
+
+.nav-container{
+         justify-content: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        width: 100vw;
+        max-width:1440px;
+        height: 90px;
+      
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    
+        
+}
+
+
+.page-main-title{
+    justify-content: center;
+    color: white;
+    height: 870px;
+   
+}
+
+
+.left-nav{
+ gap: 32px;
+}
+
+.middle-nav{
+
+gap: 32px;
+}
+
+.right-nav{
+    gap: 32px;
+}
+
+.signup-login{
+    gap:2rem;
+}
+
+
+/* page 2 the games*/
+
+.the-games-page{
+    background-image: url("img/the-games-bg.jpg") ;
+    width: 100vw;
+    height: 1051.43px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+
+}
+
+.page-2-left-body{
+    color: white;
+    padding-left: 5.5rem;
+    gap: 20px;
+}
+
+.page-2-right-body{
+    color: white;
+    margin-inline: auto;
+    gap: 20px;
+}
+
+
+
+/* page-3 features*/
+
+.features-page{
+    background-image: url("img/features.jpg") ;
+    width: 100vw;
+    height:  870.26px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+   
+
+}
+
+
+    .page-3-feature-text{
+        font-family: Arial;
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 2px;
+        
+        color: #FFB548;
+    }
+
+  
+
+  /* page 4 system requirements  */
+ .system-requirements-page{
+    background-image: url("img/requirements.png") ;
+    width: 100vw;
+    height:  960.16px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+
+}
+
+.page-4-top-body{
+    color: white;
+    padding-top: 9rem;
+
+}
+
+.page-4-left-body{
+    color: white;
+    padding-left: 7.5rem;
+    width: 100px;
+
+
+}
+
+.table-requirements td{
+    border: 1px solid rgba(151, 151, 151, .5);
+    width: 572.85px;
+height: 100px;
+left: 120.57px;
+top: 513.78px;
+
+}
+
+.data-position{
+    padding: 15px 0px 0px 20px;
+}
+
+.page-4-table-text{
+    font-family: Arial;
+font-size: 24px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 2px;
+text-align: left;
+color: rgba(255, 181, 72, 1);
+
+}
+
+.page-4-table-paragraph{
+    font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 22px;
+color: #FFFFFF
+}
+
+
+
+ /* page 5 top scores  */
+.top-scores-page{
+    background-image: url("img/top-score-bg.png") ;
+    width: 100vw;
+    height:  960.16px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+
+
+}
+
+
+.page-5-left-body  p {
+    Width: 379px;
+   font: 'Open Sans';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 22px;
+   }
+
+.page-5-left-body{
+    color: white;
+    padding-left: 7.5rem;
+    width: 100px;
+    gap: 20px;
+}
+
+.card-page-5{
+    background: rgba(255, 255, 255, 0.08);
+border-radius: 10px;
+height: 205px;
+width: 453.8px;
+left: 721.671875px;
+top: 372.06640625px;
+border-radius: 10px;
+
+}
+
+.desc-bottom-card{
+    font-weight: 400px;
+    font-size: 18px ;
+    margin-left: 1rem;
+}
+
+.date-bottom-card{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-left: 1rem;
+    opacity: 0.5;
+}
+
+
+
+ /* page 6 newsletter subscribe  */
+ .newsletter-subscribe-page{
+    background-image: url("img/newsletter.png") ;
+    width: 100vw;
+    height:  959.87px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+
+}
+
+.footer{
+    width: 100vw;
+    height: 150.43px;
+    max-width: 1440px;
+    background-size:  cover;
+    margin-inline: auto;
+}
+
+.footer-container{
+ 
+        justify-content: center;
+       display: flex;
+       justify-content: space-between;
+       align-items: center; 
+       width: 100vw;
+       max-width:1440px;
+       height: 90px;
+     
+       background-color: rgba(0, 0, 0, 0.5);
+       color: white;
+   
+       
+}
+
+/* rock paper scissor */
+
+.game-nav{
+    margin: 1em;
+}
+
+.nav-text{
+    
+font-size: 24px;
+font-weight: 650;
+line-height: 49px;
+letter-spacing: 0px;
+text-align: center;
+color:  #F9B23D;
+;
+
+}
+
+.table-heading{
+  
+font-size: 16px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0.1em;
+text-align: center;
+color:  #000000;
+;
+}
+
+.img-align{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rockpaperscissor-img
+{
+    width: 90px;
+    height: 90px;
+}
+
+.game-button{
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
